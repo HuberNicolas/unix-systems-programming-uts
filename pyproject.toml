@@ -1,0 +1,23 @@
+[project]
+name = "unix-systems-programming-uts"
+version = "1.0.0"
+description = "Coursework for UNIX Systems Programming (32547) at UTS, Autumn 2024"
+authors = [{ name = "Nicolas Huber", email = "nicolas.huber.dev@gmail.com" }]
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = ["ruff"]
+
+[tool.uv]
+package = false
+exclude-newer = "2024-06-30T00:00:00Z"
+
+[tool.ruff]
+target-version = "py312"
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
