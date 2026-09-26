@@ -14,7 +14,7 @@ Open tasks before the repository is made public. The full original state is kept
 
 - [x] Add the MIT license
 - [x] Add the course context (subject, institution, semester) to the README
-- [ ] Rewrite the history: old email addresses to `nicolas.huber.dev@gmail.com`, removed UTS material and
+- [x] Rewrite the history: old email addresses to `nicolas.huber.dev@gmail.com`, removed UTS material and
       `ansible.log` out of all commits
 - [ ] Rename the repository on GitHub to `unix-systems-programming-uts`, then run
       `git remote set-url origin git@github.com:HuberNicolas/unix-systems-programming-uts.git`
